@@ -24,6 +24,8 @@ requirements:
     - wheel
   run:
     - python
+    # to satisfy pip check because the maintainer add cython as to install_requires
+    - cython
 
 test:
   imports:
